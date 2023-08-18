@@ -1,4 +1,4 @@
-package practicetest
+package string
 
 import (
 	"testing"
