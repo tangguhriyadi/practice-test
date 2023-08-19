@@ -1,7 +1,5 @@
 package string
 
-import "fmt"
-
 func IsValidParentheses(str string) bool {
 	stack := make([]rune, 0)
 
@@ -44,10 +42,4 @@ func contains(arr []rune, target rune) bool {
 	}
 
 	return false
-}
-
-func main() {
-	result := IsValidParentheses("{{}}")
-
-	fmt.Println(result)
 }
