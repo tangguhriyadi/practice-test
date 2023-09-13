@@ -13,7 +13,7 @@ func isPalindrome(str string) bool {
 	return cleanedString == ReverseString(cleanedString)
 }
 
-func ReverseString(str string) interface{} {
+func ReverseString(str string) string {
 	runes := []rune(str)
 
 	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {

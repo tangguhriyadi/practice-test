@@ -23,9 +23,9 @@ func ArraySubset(arr []int) []int {
 			currentSum += num
 		}
 
-		sumRestNum := totalSum - currentSum
+		currentResSum := totalSum - currentSum
 
-		if currentSum > sumRestNum {
+		if currentSum > currentResSum {
 			break
 		}
 
